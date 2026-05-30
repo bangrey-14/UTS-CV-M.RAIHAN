@@ -675,3 +675,79 @@ form input[type="reset"]:hover {
   border-left: 3px solid #06b6d4;
   background: rgba(6, 182, 212, 0.07);
 }
+
+/* ── PROJECT LIST ── */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.project-item {
+  padding: 1.3rem 1.5rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-left: 3px solid #2d6ef5;
+  border-radius: 10px;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.project-item:hover {
+  border-left-color: #38bdf8;
+  transform: translateX(4px);
+}
+
+.project-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+.project-ikon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.project-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f0f6ff;
+  margin-bottom: 0.3rem;
+}
+
+.project-tag {
+  display: inline-block;
+  background: rgba(45, 110, 245, 0.15);
+  border: 1px solid rgba(45, 110, 245, 0.3);
+  border-radius: 50px;
+  padding: 0.15rem 0.7rem;
+  font-size: 0.7rem;
+  color: #38bdf8;
+  letter-spacing: 0.05em;
+}
+
+.project-item > p {
+  font-size: 0.87rem;
+  color: #8baac8;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tech span {
+  background: rgba(6, 182, 212, 0.1);
+  border: 1px solid rgba(6, 182, 212, 0.2);
+  border-radius: 50px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.72rem;
+  color: #06b6d4;
+  font-weight: 500;
+}
