@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV M.RAIHAN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =====================
+       POPUP NOTIFIKASI
+       Tersembunyi dulu, muncul setelah form dikirim
+       ===================== -->
+  <div id="popup" class="popup-overlay">
+    <div class="popup-box">
+      <div class="popup-ikon">✉️</div>
+      <h3>Pesan Terkirim!</h3>
+      <p>Makasih sudah menghubungi saya.<br>Nanti saya balas ya!</p>
+      <button onclick="tutupPopup()">Oke, siap!</button>
+    </div>
+  </div>
+
+
+  <!-- =====================
+       HERO — Kesan pertama
+       ===================== -->
+  <header class="hero">
+    <div class="hero-inner">
+
+      <!-- Ganti dengan foto kamu: src="img/PP.png" -->
+      <img
+        src="img/gue.jpg"
+        alt="Foto Profil"
+        class="foto-hero">
+
+      <h1>Halo, saya <span>M. RAIHAN</span> ✨</h1>
+
+      <!--
+        Tagline = satu kalimat yang menggambarkan kamu.
+        Contoh: "Mahasiswi yang suka kopi, kucing, dan kode."
+                "Introvert yang ekspresif lewat desain."
+                "Pemuda desa yang mau bikin website keren."
+      -->
+      <p class="tagline">Ketua Kelas C4 TI</p>
+
+      <div class="kontak-cepat">
+        <span>▶️ <a href="https://youtube.com/@bangrey_014?si=ZgmspmTHBQAr8A77" target="_blank">YouTube Channel</a></span>
+        <span>📱 08xx-xxxx-xxxx</span>
+        <span>💻 <a href="https://github.com/bangrey-14" target="_blank">GitHub</a></span>
+      </div>
+
+      <nav class="hero-nav">
+        <a href="#tentang">Tentang Aku</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#project">Project</a>
+        <a href="#hobi">Hobi</a>
+        <a href="#pesan">Kirim Pesan</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="konten">
+
+    <!-- =====================
+         TENTANG AKU
+         ===================== -->
+    <section class="kartu" id="tentang">
+      <h2>Tentang Aku</h2>
+
+      <p>
+        Nama lengkap saya <strong>M. Raihan</strong>, biasa dipanggil
+        <strong>"Rey"</strong>. Saya mahasiswa/i
+        <em>Teknologi Informasi</em> semester 4 di Universitas Sapta Mandiri.
+      </p>
+
+      <p>
+        Saya berasal dari Balangan. Masuk jurusan ini karena
+        <em>penasaran bagaimana aplikasi dan website dibuat</em>, dan ternyata
+        semakin dalam semakin seru.
+      </p>
+
+      <blockquote>
+        "Yang sudah, Sudahhhh."
+        <cite>— Bangrey</cite>
+      </blockquote>
+
+    </section>
+
+
+    <!-- =====================
+     KEAHLIAN
+     ===================== -->
+<section class="kartu" id="skills">
+  <h2>Keahlian</h2>
+
+  <div class="skill-kategori">
+    <h3 class="skill-label">🔧 Hard Skill</h3>
+    <div class="galeri-grid">
+      <div class="skill-card hard">
+        <span class="skill-ikon">📱</span>
+        <p>Kustomisasi ROM HP</p>
+      </div>
+      <div class="skill-card hard">
+        <span class="skill-ikon">💻</span>
+        <p>Memperbaiki Komputer</p>
+      </div>
+      <div class="skill-card hard">
+        <span class="skill-ikon">🔌</span>
+        <p>Instalasi & Setting Jaringan</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-kategori">
+    <h3 class="skill-label">🧠 Soft Skill</h3>
+    <div class="galeri-grid">
+      <div class="skill-card soft">
+        <span class="skill-ikon">📚</span>
+        <p>Otodidak & Belajar Mandiri</p>
+      </div>
+      <div class="skill-card soft">
+        <span class="skill-ikon">🤝</span>
+        <p>Kepemimpinan</p>
+      </div>
+      <div class="skill-card soft">
+        <span class="skill-ikon">🗣️</span>
+        <p>Komunikasi</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    <!-- =====================
+     RIWAYAT PENDIDIKAN
+     ===================== -->
+<section class="kartu" id="pendidikan">
+  <h2>Riwayat Pendidikan</h2>
+
+  <div class="edu-list">
+
+    <div class="edu-item">
+      <div class="edu-icon">🎓</div>
+      <div class="edu-detail">
+        <h3>Universitas Sapta Mandiri</h3>
+        <p class="edu-jurusan">Teknologi Informasi</p>
+        <p class="edu-tahun">2024 — Sekarang</p>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-icon">🏫</div>
+      <div class="edu-detail">
+        <h3>SMA / SMK — SMK Arraudhah</h3>
+        <p class="edu-jurusan">Kitab</p>
+        <p class="edu-tahun">2016 — 2019</p>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-icon">🏫</div>
+      <div class="edu-detail">
+        <h3>SMP — SPM Arraudah</h3>
+        <p class="edu-jurusan">-</p>
+        <p class="edu-tahun">2013 — 2016</p>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-icon">🏫</div>
+      <div class="edu-detail">
+        <h3>SD — SDN Mampari</h3>
+        <p class="edu-jurusan">-</p>
+        <p class="edu-tahun">2007 — 2013</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+    <!-- =====================
+         JADWAL HARIAN
+         (Table — colspan + rowspan)
+         ===================== -->
+    <!-- =====================
+     PROJECT / PORTOFOLIO
+     ===================== -->
+<section class="kartu" id="project">
+  <h2>Project</h2>
+  <p class="sub">Beberapa project yang pernah saya kerjakan.</p>
+
+  <div class="project-list">
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">📱</span>
+        <div>
+          <h3>Kustomisasi ROM Xiaomi Redmi Note</h3>
+          <span class="project-tag">Android Modding</span>
+        </div>
+      </div>
+      <p>Melakukan flashing custom ROM MIUI ke LineageOS pada perangkat Xiaomi Redmi Note, termasuk unlock bootloader, instalasi TWRP recovery, dan optimasi performa baterai.</p>
+      <div class="project-tech">
+        <span>ADB & Fastboot</span>
+        <span>TWRP</span>
+        <span>LineageOS</span>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">💻</span>
+        <div>
+          <h3>Servis & Upgrade PC Warnet</h3>
+          <span class="project-tag">Hardware</span>
+        </div>
+      </div>
+      <p>Menangani perbaikan menyeluruh unit komputer warnet lokal — cleaning hardware, upgrade RAM, reinstall Windows 10, instalasi driver, dan setting jaringan LAN antar unit.</p>
+      <div class="project-tech">
+        <span>Windows 10</span>
+        <span>LAN Setup</span>
+        <span>Hardware Upgrade</span>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">🌐</span>
+        <div>
+          <h3>Website CV Pribadi</h3>
+          <span class="project-tag">Web Development</span>
+        </div>
+      </div>
+      <p>Membuat website CV pribadi berbasis HTML & CSS sebagai media perkenalan diri secara digital, lengkap dengan informasi pendidikan, keahlian, jadwal, dan form kontak.</p>
+      <div class="project-tech">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">🔧</span>
+        <div>
+          <h3>Troubleshooting Laptop Mati Total</h3>
+          <span class="project-tag">Repair</span>
+        </div>
+      </div>
+      <p>Menangani kasus laptop tidak mau menyala akibat kerusakan IC power dan baterai kembung — melakukan diagnosa, penggantian komponen, dan pengujian ulang perangkat hingga berfungsi normal.</p>
+      <div class="project-tech">
+        <span>Diagnosa Hardware</span>
+        <span>Soldering</span>
+        <span>IC Power</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- =====================
+         HOBI FAVORIT
+         (CSS Grid — P6)
+         ===================== -->
+    <section class="kartu" id="hobi">
+      <h2>Hobi</h2>
+      <p class="sub">Beberapa kegiatan yang biasa aku lakukan di kala santai.</p>
+
+      <div class="galeri-grid">
+
+        <div class="galeri-card">
+          <!--
+            Cara ganti gambar hobi:
+            Simpan gambar di folder img/, lalu ganti src-nya.
+            Contoh: src="img/hobi_musik.jpg"
+          -->
+          <img
+            src="img/maingame.png"
+            alt="Hobi gaming">
+          <div class="galeri-caption">
+            <h3>Main Game</h3>
+            <p>Gaming menjadi cara saya bersantai, melatih strategi, dan menikmati cerita interaktif.</p>
+          </div>
+        </div>
+
+        <div class="galeri-card">
+          <img
+            src="img/hiking.png"
+            alt="Hobi watching">
+          <div class="galeri-caption">
+            <h3>Hiking</h3>
+            <p>Saya suka naik gunung, untuk merefreshing otak.</p>
+          </div>
+        </div>
+
+        <div class="galeri-card">
+          <img
+            src="img/mancing.png"
+            alt="Hobi reading">
+          <div class="galeri-caption">
+            <h3>Memancing</h3>
+            <p>Memancing adalah hobi yg melatih kesabaran..</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =====================
+         LOKASI / GOOGLE MAPS
+         ===================== -->
+    <section class="kartu" id="lokasi">
+      <h2>Saya ada di Sini 📍</h2>
+      <p class="sub">Siapa tau mau ngasih sesuatu ehe</p>
+
+      <!--
+        CARA GANTI PETA:
+        1. Buka Google Maps di browser
+        2. Cari nama kota / daerah tempat tinggal kamu
+        3. Klik "Share" (ikon bagikan)
+        4. Pilih tab "Embed a map"
+        5. Klik "COPY HTML"
+        6. Ganti seluruh tag <iframe ...></iframe> di bawah ini
+           dengan hasil copy-an kamu tadi
+        
+        CATATAN: Kalau tidak mau share lokasi spesifik, cukup
+        cari nama kota aja — tidak perlu sampai alamat rumah!
+      -->
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3986.3875520462925!2d115.41090357501592!3d-2.376226797603135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1780113761978!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <p class="lokasi-nama">📌 Basecamp, Mampari</p>
+      <!-- Ganti teks di atas dengan nama kota kamu -->
+    </section>
+
+
+
+    <!-- =====================
+         FORM — Kirim Pesan
+         ===================== -->
+    <section class="kartu" id="pesan">
+      <h2>Kirim Pesan ke Saya</h2>
+      <p class="sub">Mau kenalan? Kerjasama? Atau sekadar say hi? Isi aja di bawah!</p>
+
+      <!-- onsubmit="..." → jalankan fungsi JS saat tombol Kirim diklik -->
+      <form action="#" method="post" onsubmit="kirimPesan(event)">
+
+        <label for="nama">Nama kamu:</label>
+        <input type="text" id="nama" name="nama"
+               placeholder="Siapa namamu?" required>
+
+        <label for="email">Email kamu:</label>
+        <input type="email" id="email" name="email"
+               placeholder="emailkamu@contoh.com" required>
+
+        <label for="kenal">Kamu kenal saya dari mana?</label>
+        <select id="kenal" name="kenal">
+          <option value="">-- Pilih --</option>
+          <option value="kampus">Teman kampus</option>
+          <option value="medsos">Media sosial</option>
+          <option value="github">GitHub</option>
+          <option value="lain">Lainnya</option>
+        </select>
+
+        <p class="label-group">Kamu mau:</p>
+        <div class="input-group">
+          <input type="radio" id="kenalan" name="tujuan" value="kenalan">
+          <label for="kenalan">Kenalan aja 👋</label>
+          <input type="radio" id="kerjasama" name="tujuan" value="kerjasama">
+          <label for="kerjasama">Ajak kerjasama</label>
+          <input type="radio" id="tanya" name="tujuan" value="tanya">
+          <label for="tanya">Tanya sesuatu</label>
+          <input type="radio" id="Kirim hadiah" name="tujuan" value="kirim hadiah">
+          <label for="tanya">Kirim Hadiah</label>
+        </div>
+
+        <p class="label-group">Topik yang mau dibahas:</p>
+        <div class="input-group">
+          <input type="checkbox" id="web" name="topik" value="web">
+          <label for="web">Web Dev</label>
+          <input type="checkbox" id="desain" name="topik" value="desain">
+          <label for="desain">Desain</label>
+          <input type="checkbox" id="kolaborasi" name="topik" value="kolaborasi">
+          <label for="kolaborasi">Kolaborasi project</label>
+          <input type="checkbox" id="konsultasi" name="topik" value="konsultasi servis hp & komputer">
+          <label for="kolaborasi">Konsuktasi Software</label>
+        </div>
+
+        <label for="pesan-isi">Pesanmu:</label>
+        <textarea id="pesan-isi" name="pesan" rows="4"
+                  placeholder="Tulis pesanmu di sini, saya baca kok :)"></textarea>
+
+        <div class="tombol-area">
+          <input type="submit" value="Kirim Pesan ✉️">
+          <input type="reset" value="Hapus">
+        </div>
+
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <p>© 2026 — <strong>M.Raihan</strong> | CV</p>
+    <p><a href="#">Kembali ke atas</a></p>
+  </footer>
+
+
+
+  <!-- =====================
+       JAVASCRIPT
+       Dua fungsi sederhana:
+       kirimPesan() → tampilkan popup
+       tutupPopup() → sembunyikan popup
+       ===================== -->
+  <script>
+    function kirimPesan(event) {
+      event.preventDefault();       // cegah halaman reload
+      document.getElementById('popup').classList.add('aktif');
+      event.target.reset();         // kosongkan form setelah kirim
+    }
+
+    function tutupPopup() {
+      document.getElementById('popup').classList.remove('aktif');
+    }
+
+    // Klik di luar popup juga menutupnya
+    document.getElementById('popup').addEventListener('click', function(e) {
+      if (e.target === this) tutupPopup();
+    });
+  </script>
+
+</body>
+</html>
