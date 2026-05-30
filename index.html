@@ -52,6 +52,8 @@
 
       <nav class="hero-nav">
         <a href="#tentang">Tentang Aku</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#project">Project</a>
         <a href="#hobi">Hobi</a>
         <a href="#pesan">Kirim Pesan</a>
       </nav>
@@ -90,7 +92,7 @@
     <!-- =====================
      KEAHLIAN
      ===================== -->
-<section class="kartu" id="soft-skills">
+<section class="kartu" id="skills">
   <h2>Keahlian</h2>
 
   <div class="skill-kategori">
@@ -181,66 +183,81 @@
          JADWAL HARIAN
          (Table — colspan + rowspan)
          ===================== -->
-    <section class="kartu" id="jadwal">
-      <h2>Jadwal Harian</h2>
-      <p class="sub">Hidup itu perlu jadwal — biar tetap waras dan produktif!</p>
+    <!-- =====================
+     PROJECT / PORTOFOLIO
+     ===================== -->
+<section class="kartu" id="project">
+  <h2>Project</h2>
+  <p class="sub">Beberapa project yang pernah saya kerjakan.</p>
 
-      <div class="table-scroll">
-      <table>
-        <thead>
-          <tr>
-            <!-- colspan: judul mencakup semua 4 kolom -->
-            <th colspan="4">RUTINITAS MINGGUAN SAYA</th>
-          </tr>
-          <tr>
-            <th>Hari</th>
-            <th>Jam</th>
-            <th>Kegiatan</th>
-            <th>Keterangan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <!-- rowspan: Senin punya 2 kegiatan -->
-            <td rowspan="2">Senin</td>
-            <td>08:00 – 12:00</td>
-            <td>Kerja</td>
-            <td>Kerja Teroosss</td>
-          </tr>
-          <tr>
-            <td>17:00 – 21:00</td>
-            <td>Main Game</td>
-            <td>Push Rank</td>
-          </tr>
-          <tr>
-            <td>Selasa</td>
-            <td>08:00 – 17:00</td>
-            <td>Kerja</td>
-            <td>Kerja Seharian</td>
-          </tr>
-          <tr>
-            <!-- rowspan: Rabu juga 2 kegiatan -->
-            <td rowspan="2">Rabu</td>
-            <td>08:00 – 12:00</td>
-            <td>Kerja</td>
-            <td>Kerja Teroosss</td>
-          </tr>
-          <tr>
-            <td>19:00 – 21:00</td>
-            <td>Main game</td>
-            <td>Push rank sampai Imo</td>
-          </tr>
-          <tr>
-            <td>Sabtu</td>
-            <td>Seharian</td>
-            <td>Kuliah</td>
-            <td>Ngampus Broo</td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="project-list">
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">📱</span>
+        <div>
+          <h3>Kustomisasi ROM Xiaomi Redmi Note</h3>
+          <span class="project-tag">Android Modding</span>
+        </div>
       </div>
-    </section>
+      <p>Melakukan flashing custom ROM MIUI ke LineageOS pada perangkat Xiaomi Redmi Note, termasuk unlock bootloader, instalasi TWRP recovery, dan optimasi performa baterai.</p>
+      <div class="project-tech">
+        <span>ADB & Fastboot</span>
+        <span>TWRP</span>
+        <span>LineageOS</span>
+      </div>
+    </div>
 
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">💻</span>
+        <div>
+          <h3>Servis & Upgrade PC Warnet</h3>
+          <span class="project-tag">Hardware</span>
+        </div>
+      </div>
+      <p>Menangani perbaikan menyeluruh unit komputer warnet lokal — cleaning hardware, upgrade RAM, reinstall Windows 10, instalasi driver, dan setting jaringan LAN antar unit.</p>
+      <div class="project-tech">
+        <span>Windows 10</span>
+        <span>LAN Setup</span>
+        <span>Hardware Upgrade</span>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">🌐</span>
+        <div>
+          <h3>Website CV Pribadi</h3>
+          <span class="project-tag">Web Development</span>
+        </div>
+      </div>
+      <p>Membuat website CV pribadi berbasis HTML & CSS sebagai media perkenalan diri secara digital, lengkap dengan informasi pendidikan, keahlian, jadwal, dan form kontak.</p>
+      <div class="project-tech">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-ikon">🔧</span>
+        <div>
+          <h3>Troubleshooting Laptop Mati Total</h3>
+          <span class="project-tag">Repair</span>
+        </div>
+      </div>
+      <p>Menangani kasus laptop tidak mau menyala akibat kerusakan IC power dan baterai kembung — melakukan diagnosa, penggantian komponen, dan pengujian ulang perangkat hingga berfungsi normal.</p>
+      <div class="project-tech">
+        <span>Diagnosa Hardware</span>
+        <span>Soldering</span>
+        <span>IC Power</span>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <!-- =====================
          HOBI FAVORIT
